@@ -1,0 +1,19 @@
+.action-buttons{
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.card{
+  transform: scale(1);
+  transition: scale 0.1s ease;
+}
+
+.card:hover{
+  transform: scale(1.2);
+}
+
+.card:hover .action-buttons{
+  height: auto;
+  opacity: 1;
+}
