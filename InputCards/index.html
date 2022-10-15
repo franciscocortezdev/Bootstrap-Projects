@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Input Card</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
@@ -15,8 +16,29 @@
     <div class="input-people border border-dark rounded-1 p-2 d-flex">
       <div class="people pe-1">
         <div class="btn-group">
-          <button class="btn btn-outline-secondary border-end-0">
-            <img src="" width="32" class="rounded-circle border border-3 border-success">
+          <button class="btn btn-outline-secondary border-end-0 d-flex align-items-center gap-1">
+            <img src="./imgs/p3.jpg" width="32" class="rounded-circle border border-3 border-success">
+            Robert Montemayor
+          </button>
+          <button data-bs-toggle="dropdown"
+            class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split border-start-0">
+            <span class="visually-hidden ">Toggle dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Open info card</a></li>
+            <li><a href="#" class="dropdown-item">Move CC</a></li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li><a href="#" class="dropdown-item">Remove</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-outline-secondary border-end-0 d-flex align-items-center gap-1">
+            <img src="./imgs/p2.jpg" width="32" class="rounded-circle border border-3 border-success">
             Julia Montemayor
           </button>
           <button data-bs-toggle="dropdown"
@@ -34,6 +56,8 @@
             <li><a href="#" class="dropdown-item">Remove</a></li>
           </ul>
         </div>
+
+        <input type="text" class="flex input-text outline-0 border-0">
       </div>
     </div>
 
