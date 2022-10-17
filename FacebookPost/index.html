@@ -11,13 +11,14 @@
 
 <body>
 
-    <div class="post-container container-sm mt-5 border-0 p-0 bg-white rounded overflow-hidden" style="width: 500px">
-        <div class="post">
+    <div class="post-container container-sm mt-5 border border-bottom-0 p-0 bg-white rounded overflow-hidden"
+        style="width: 500px">
+        <div class="post ">
 
             <div class="header row d-flex p-3 pb-1 align-items-center">
                 <div class="col-auto profile p-0">
                     <a href="#">
-                        <img src="" width="52" class="rounded-circle ps-2">
+                        <img src="./Imgs/profile.jpg" width="52" class="rounded-circle ps-2">
                     </a>
                 </div>
                 <div class="col post-info">
@@ -40,7 +41,42 @@
             </div>
 
             <div class="content">
+                <div class="text p-3 pt-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione impedit praesentium ex veniam
+                    optio, pariatur enim culpa inventore, saepe voluptate dolorum illum mollitia sequi, quos est totam
+                    laborum repellendus exercitationem.
+                </div>
+                <div class="images container-sm text-center" style="height: 600px; background-color: brown">
+                    <img src="./Imgs/image.jpg" width="" class="h-100" style="object-fit: cover">
+                </div>
+            </div>
 
+            <div class="interactions d-flex justify-content-between p-2 px-3">
+                <div class="reactions d-flex align-items-center text-secondary">
+                    <img src="./Imgs/like.png" width="16" alt="">
+                    <img src="./Imgs/heart.png" width="16" alt="" class="position-relative" style="margin-left: -5px">
+                    <a href="#" class="text-secondary text-decoration-none">256k</a>
+                </div>
+
+                <div class="comments-count d-flex gap-2">
+                    <a href="#" class="text-secondary text-decoration-none">
+                        24k comments
+                    </a>
+                    <a href="#" class="text-secondary text-decoration-none">
+                        3.2 shared
+                    </a>
+                </div>
+            </div>
+
+            <div class="actions d-flex">
+                <button
+                    class="btn btn-outline-light text-black d-block w-50 text-center border rounded-0 border-start-0 p-2">
+                    Like
+                </button>
+                <button
+                    class="btn btn-outline-light text-black d-block w-50 text-center border rounded-0 border-start-0 border-end-0 p-2">
+                    Comment
+                </button>
             </div>
         </div>
     </div>
