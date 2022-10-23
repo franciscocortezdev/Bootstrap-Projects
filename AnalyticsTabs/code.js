@@ -11,6 +11,8 @@ navLinks.forEach((navL) => {
         "border-start-0",
         "border-end-0"
       )
+
+      link.style = ""
     })
 
     navL.classList.add(
@@ -22,6 +24,7 @@ navLinks.forEach((navL) => {
       "border-end-0"
     )
 
+    navL.style = "--bs-bg-opacity: 0.8"
   })
 
 
